@@ -14,7 +14,7 @@ const Navbar = () => {
         data-aos='fade-down'
       >
         <div className='container'>
-          <Link href='/' className='nav-link fw-bolder text-info'>
+          <Link href='/' passHref className='nav-link fw-bolder text-info'>
             EXCEL.
           </Link>
           <button
@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='navbarNav'>
             <ul className='navbar-nav ms-auto'>
               <li className='nav-item'>
-                <Link href='/' className='nav-link'>
+                <Link href='/' passHref className='nav-link'>
                   Home
                 </Link>
               </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className='nav-item'>
-                <Link href='/' className='nav-link'>
+                <Link href='/' passHref className='nav-link'>
                   E-classNameroom
                 </Link>
               </li>
@@ -68,17 +68,17 @@ const Navbar = () => {
               </li>
 
               <li className='nav-item'>
-                <Link href='/register' className='nav-link'>
+                <Link href='/register' passHref className='nav-link'>
                   Sign up
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link href='/login' className='nav-link'>
+                <Link href='/login' passHref className='nav-link'>
                   Login
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link href='/welcome' className='nav-link'>
+                <Link href='/welcome' className='nav-link' passHref>
                   Admin Panel
                 </Link>
               </li>
