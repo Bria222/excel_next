@@ -14,7 +14,7 @@ const Navbar = () => {
         data-aos='fade-down'
       >
         <div className='container'>
-          <Link href='/' passHref className='nav-link fw-bolder text-info'>
+          <Link href='/' className='nav-link fw-bolder text-info'>
             EXCEL.
           </Link>
           <button
@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='navbarNav'>
             <ul className='navbar-nav ms-auto'>
               <li className='nav-item'>
-                <Link href='/' passHref className='nav-link'>
+                <Link href='/' className='nav-link'>
                   Home
                 </Link>
               </li>
